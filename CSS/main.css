@@ -1,0 +1,397 @@
+ li{
+    list-style-type: none;
+ }
+ 
+ .background{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../images/hero-bg.jpg);
+height: 100vh;
+background-position: center;
+background-size: cover;
+overflow: auto;
+
+} 
+.hero {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 250px;
+}
+.background h1::after{
+    content: "|";
+    animation: typing 5s ease-out infinite;
+}
+@keyframes typing{
+    0%{
+        content: "|";
+    }
+    1%{
+        content: "D|";
+    }
+    2%{
+        content: "De|";
+    }
+    4%{
+        content: "Deve|";
+    }    
+    6%{
+        content: "Devel|";
+    }
+    8%{
+        content: "Develo|";
+    }
+    10%{
+        content: "Develop|";
+    }
+    12%{
+        content: "Develope|";
+    }
+    14%{
+        content: "Developer|";
+    }
+    16%{
+        content: "|";
+    }
+    18%{
+        content: "F|";
+    }
+    20%{
+        content: "Fr|";
+    }
+    22%{
+        content: "Fre|";
+    }
+    24%{
+        content: "Free|";
+    }
+    26%{
+        content: "Freel|";
+    }
+    28%{
+        content: "Freela|";
+    }
+    30%{
+        content: "Freelan|";
+    }
+    32%{
+        content: "Freelanc|";
+    }
+    34%{
+        content: "Freelance|";
+    }
+    36%{
+        content: "Freelancer|";
+    }
+    38%{
+        content: "|";
+    }
+    40%{
+        content: "P|";
+    }
+    42%{
+        content: "Ph|";
+    }
+    44%{
+        content: "Pho|";
+    }
+    46%{
+        content: "Phot|";
+    }
+    48%{
+        content: "Photo|";
+    }
+    50%{
+        content: "Photog|";
+    }
+    52%{
+        content: "Photogr|";
+    }
+    54%{
+        content: "Photogra|";
+    }    
+    56%{
+        content: "Photograp|";
+    }
+    58%{
+        content: "Photograph|";
+    }
+    60%{
+        content: "Photographe|";
+    }
+    62%{
+        content: "Photographer|";
+    }
+    64%{
+        content: "|";
+    }
+    66%{
+        content: "D|";
+    }
+    68%{
+        content: "De|";
+    }
+    70%{
+        content: "Des|";
+    }
+    72%{
+        content: "Desi|";
+    }
+    74%{
+        content: "Desig|";
+    }
+    76%{
+        content: "Design|";
+    }
+    78%{
+        content: "Designe|";
+    }
+    100%{
+        content: "Designer|";
+    }
+    
+    
+    
+}
+
+/* ?about */
+.sect-pt4 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+}
+.section {
+    display: block;
+    unicode-bidi: isolate;
+    
+}
+#about .container{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    background-color: rgb(241, 240, 240);
+    padding: 5rem;
+    
+
+}
+/* ?services */
+.line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+    
+}
+.title{
+    text-align: center;
+    h3{
+        font-size: 48px;
+        font-weight: 700;
+    }
+    p{
+        color: RGB(78, 78, 78);
+    }
+}
+ .ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 2.5;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    transition: all 0.5s;
+}
+.ico-circle:hover {
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #8c9bab;
+    color: white;
+}
+ .card{
+    padding: 2rem;
+
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 10%;
+    h2,p{
+        text-align: center;
+    }
+
+
+}
+ .col{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    
+}
+
+/* ?timers */
+.bg-image {
+    background-image:linear-gradient(rgba(6, 91, 186, 0.7),rgba(6, 91, 186, 0.7)) ,url(../images/counters-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+}
+.paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.counter-ico .ico-circle{
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 10px #c3c4c6;
+    height: 70px;
+    width: 70px;
+
+}
+.counter-box{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .counter-num{
+        padding-top: 2rem;
+        color: white;
+    }
+    .counter-text{
+        color: white;
+    }
+
+    
+}
+/* ?portfolio */
+.work-box{
+    padding-bottom: 2rem;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+
+    img{
+        padding-bottom: 2rem;
+        transition: 0.5s all;
+    }
+
+    .w-title{
+        padding-left: 1rem;
+    }
+    .w-ctegory{
+        padding-left: 1rem;
+        color: #0078ff;
+    }
+    .w-like .bi i{
+        justify-content: end;
+        display: flex;
+        height: 60px;
+        width: 60px;
+        font-size: 2rem;
+    border-radius: 50%;
+    line-height: 2.5;
+    padding-left: 6rem;
+    }
+}
+.work-box:hover img{
+    scale: 1.1;
+}
+
+/* ?slids */
+
+ .mycard{
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    color: white;
+    img{
+        width: 100px;
+    }
+ }
+ .backmycard{
+    background-image:linear-gradient(rgba(6, 91, 186, 0.7),rgba(6, 91, 186, 0.7)) ,url(../images/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+ }
+
+
+/* ?blog */
+.blog .card{
+    padding: 0;
+}
+.text-muted{
+    img{
+        width: 50px;
+        
+    }
+}
+.clock{
+    padding-left: 6rem;
+}
+
+/* ?form */
+.ico-circlee{
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    line-height: 1.5;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 5px #0078ff;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+    
+}
+.ico-circlee:hover {
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #8c9bab;
+    color: white;
+}
+.myform .container{
+    background-color: white;
+    padding: 4rem;
+}
+.list-ico i{
+    color: #0078ff;
+    padding-right: 1rem;
+}
+ .button{
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    background-color: #0078ff;
+    color: white;
+    
+    font-size: 20px;
+    border: 0;
+    transition: all 0.5s;
+ }
+ .button:hover{
+    opacity: 0.5;
+    box-shadow: 0 0 0 5px #8c9bab;
+ }
+
+ /* ?footer */
+ .myfooter {
+    margin: 0 auto;
+   
+    top: 50%;
+    left: 50%;
+    
+    text-align: center;
+    padding: 2rem;
+    background-color: #1366d4;
+    color: white;
+    
+ }
